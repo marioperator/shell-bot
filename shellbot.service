@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
-ExecStart=/usr/bin/python3 /home/ups/shell-bot/shellbot.py
+ExecStart=/usr/bin/python3 /path/to/shellbot/shellbot.py
 Restart=always
 RestartSec=10
 
