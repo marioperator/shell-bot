@@ -1,0 +1,13 @@
+[Unit]
+Description=Shell Bot Telegram
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /home/ups/shell-bot/shellbot.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
