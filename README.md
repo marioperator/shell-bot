@@ -1,4 +1,5 @@
 # shellbot
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/033346c2-6dce-4d26-b813-b37d1cfdefba" />
 
 A Telegram bot that lets you run shell commands and scripts on a remote Linux machine.
 
